@@ -1,0 +1,155 @@
+.student_speak_section {
+  margin: 150px 0px;
+}
+.student_speak_banner_container {
+  background-image: linear-gradient(#00000065, #00000065),
+    linear-gradient(#00000065, #00000065),
+    url("../../../assets/Images/71c6fbbcc9086c465b250bc88737db44.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  padding: 50px 0px;
+  text-align: center;
+}
+.student_speak_section h2 {
+  font-size: 45px;
+  color: #fff;
+}
+.student_speak_section h2 span {
+  color: var(--primary-color);
+}
+.student_speak_section p {
+  color: #ffffffbd;
+  margin-top: 20px;
+}
+
+.student_speak_slider {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: -100px;
+  overflow: hidden;
+}
+
+.student_speak_slider_item {
+  width: 350px;
+  height: 350px;
+  background-color: #fff;
+  padding: 20px 0px;
+}
+.student_speak_slider_item span {
+  width: 90px;
+  height: 90px;
+  font-size: 40px;
+  position: absolute;
+  background-color: #ffffff91;
+  color: #fff;
+  border-radius: 50%;
+  /* padding: 17px 30px; */
+  margin-top: -150px;
+  margin-left: 125px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.student_speak_slider_item p {
+  color: black;
+  margin-top: -2px;
+}
+.carusel_img {
+  margin: auto;
+  width: 300px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.carusel_img img {
+  width: 100%;
+  height: auto;
+}
+
+.student_speak_slider_item1 {
+  margin-left: 100px;
+  margin-top: 40px;
+}
+.student_speak_slider_item1 h3,
+.student_speak_slider_item1 p {
+  margin-left: 20px;
+}
+.student_speak_slider_item1 h3 {
+  margin-top: 20px;
+  font-size: 30px;
+}
+.student_speak_slider_item2 h3 {
+  margin-top: 20px;
+  font-size: 30px;
+}
+.student_speak_slider_item2 {
+  width: 400px;
+  height: 415px;
+  background-color: #fff;
+  padding: 20px;
+}
+.student_speak_slider_item3 {
+  margin-right: 100px;
+  margin-top: 40px;
+}
+.student_speak_slider_item3 h3 {
+  margin-top: 20px;
+  font-size: 30px;
+}
+.student_speak_slider_item3 h3,
+.student_speak_slider_item3 p {
+  margin-left: 20px;
+}
+.carusel_img2 {
+  width: 350px;
+  height: 250px;
+  padding: 20px 0px;
+}
+.carusel_img2 img {
+  width: 100%;
+  height: auto;
+  padding-top: 50px;
+}
+
+.slick-slide {
+  padding: 0px 20px !important;
+}
+
+.arrow_container{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 50px;
+}
+.arrow_left{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  padding: 10px 11px;
+  background-color: rgba(248, 164, 115, 0.299);
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #434343;
+}
+ .arrow_right{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  padding: 10px 11px;
+  background-color: var(--primary-color);
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}

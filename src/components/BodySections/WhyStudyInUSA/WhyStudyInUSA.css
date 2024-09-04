@@ -1,0 +1,36 @@
+.whyStudyInUsa_content_container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 50px;
+}
+.whyStudyInUsa_content_container img{
+  width: 100%;
+}
+
+.whyStudyInUsa_content h2{
+  font-size: 45px;
+}
+.whyStudyInUsa_content h2 span{
+  color: var(--primary-color);
+}
+.whyStudyInUsa_content p{
+  margin: 20px 0px;
+}
+.whyStudyInUsa_content h3{
+  font-size: 27px;
+  margin-bottom: 10px;
+}
+.whyStudyInUsa_content ul li span{
+  color: var(--primary-color);
+  margin-right: 10px;
+}
+.whyStudyInUsa_content button{
+  margin-top: 25px;
+  border: none;
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 12px 30px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}

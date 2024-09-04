@@ -1,0 +1,43 @@
+.student_say_section {
+  margin: 150px 0px;
+}
+.student_say_content h2 {
+  font-size: 45px;
+}
+.student_say_content h2 span {
+  color: var(--primary-color);
+}
+.student_say_content p {
+  margin: 20px 0px;
+}
+.student_say_content_slider{
+  margin-top: 50px;
+}
+.slick-prev,
+.slick-next {
+  display: none !important;
+}
+.slick-slide {
+  padding: 0px 10px !important;
+}
+.slider_item {
+  background-color: #fff;
+  padding: 30px;
+}
+.slider_item:hover {
+  border-bottom: 2px solid var(--primary-color);
+}
+.ratings {
+  color: var(--primary-color);
+}
+.student {
+  display: flex;
+  margin-top: 20px;
+}
+.student img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 20px;
+}

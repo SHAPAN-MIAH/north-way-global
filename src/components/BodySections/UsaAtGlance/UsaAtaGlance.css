@@ -1,0 +1,36 @@
+.usaAtaGlance_section h2{
+ font-size: 45px;
+ text-align: center;
+ margin-bottom: 40px;
+ 
+}
+.usaAtaGlance_section h2 span{
+ color: var(--primary-color);
+
+}
+.usaAtaGlance_content_container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+.usaAtaGlance_content {
+  text-align: center;
+ 
+}
+.usaAtaGlance_content .title{
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 20px 0px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.usaAtaGlance_content .des{
+  height: 140px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+}

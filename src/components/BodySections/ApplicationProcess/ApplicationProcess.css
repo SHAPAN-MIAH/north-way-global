@@ -1,0 +1,61 @@
+.application_process_section {
+  text-align: center;
+  padding: 150px 0px;
+}
+.application_process_section h1 {
+  font-size: 52px;
+  margin-bottom: 25px;
+}
+.application_process_section h1 span {
+  color: var(--primary-color);
+}
+.application_process_content_container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 50px 20px;
+  margin-top: 80px;
+  position: relative;
+}
+.dash_border_top {
+  width: 74%;
+  margin-left: 170px;
+  position: absolute;
+  margin-top: 60px;
+  border: 2px dashed gainsboro;
+  z-index: -1;
+}
+.dash_border_bottom {
+  width: 35%;
+  margin-left: 170px;
+  position: absolute;
+  margin-top: 345px;
+  border: 2px dashed gainsboro;
+  z-index: -1;
+}
+
+.application_process_content span {
+  font-size: 75px;
+  color: rgb(48, 48, 48);
+  background-color: #f6f6f6;
+  border: 3px dashed rgb(200, 200, 200);
+  border-radius: 100%;
+  padding: 15px 20px;
+}
+
+
+.application_process_content img {
+  width: 120px;
+  background-color: #f6f6f6;
+  border-radius: 50%;
+}
+.application_process_content p {
+  font-size: 20px;
+  font-weight: 600;
+  border: 2px solid gainsboro;
+  padding: 10px;
+}
+.application_process_content p:hover {
+  color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+}
+

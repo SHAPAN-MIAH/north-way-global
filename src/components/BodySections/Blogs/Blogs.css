@@ -1,0 +1,61 @@
+.blog_section {
+  margin: 150px 0px;
+  text-align: center;
+}
+.blog_section h2 {
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+
+.blog_section h2 span {
+  color: var(--primary-color);
+}
+.blogs_content_container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  margin-top: 50px;
+}
+.blogs_content {
+  background-color: #fff;
+  text-align: left;
+  color: rgb(61, 61, 61);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.blogs_content img {
+  width: 100%;
+}
+.blogs_content small {
+  font-size: 17px;
+  margin: 30px 0px 30px 20px;
+  color: #737373;
+}
+.blogs_content h4 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+}
+
+.theme_comments {
+  padding: 20px;
+  border-top: 1px solid gainsboro;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+}
+
+
+.blog_section button{
+  margin-top: 50px !important;
+  border: 1px solid var(--primary-color);
+  background-color: #fff;
+  color: var(--primary-color);
+  padding: 12px 30px;
+  font-size: 20px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  margin: auto ;
+}
